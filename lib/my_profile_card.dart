@@ -9,6 +9,7 @@ class MyProfileCard extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
               radius: 56,
